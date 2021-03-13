@@ -1,0 +1,170 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 1em;
+}
+
+p{
+    font-size: .7em;
+}
+
+.Contenedor-Tarjetas{
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.Form-Group{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+}
+textarea{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    border: none;
+    justify-content: flex-start;
+}
+
+
+.Tarjeta{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.Tarjeta img{
+    width: 250px;
+}
+
+.Tarjeta-Icons{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 0 0 0;
+
+}
+
+.Tarjeta-Icons img{
+        width: 20px;
+        height: 20px;
+        
+
+}
+
+.Tarjeta-Info-Contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+button{
+    border: none;
+    background: none;
+}
+
+.boton-detalles{
+    background: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: .7em;
+    margin-bottom: 20px;
+}
+
+main{
+    width: 820px;
+    margin: 0 auto;
+    background: whitesmoke;
+    
+}
+
+.titulo{
+    width: 820px;
+    /* background: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px 0 10px;
+    padding-top: 20px;
+    
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+
+
+header{
+    width: 820px;
+    height: 80px;
+    margin: 0 auto;
+    background: coral;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav{
+    width: 800px;
+    /* background: rosybrown */
+    
+}
+
+
+ul{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: black; */
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    margin-left: 0;
+    /* background: black; */
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+    
+}
+
+button{
+    width: 130px;
+    height: 30px;
+    color: white;
+    background: black;
+    border: none;
+    
+}
